@@ -1,0 +1,10 @@
+// represent a group of common SalePoint items
+// for example in travel,  a sale point can be the site
+//of an agency, the agency itself but also there can be a chain of agency (or just representative points)
+//
+// in pharma industry, it can exista a independent drugstore but also the drugstore
+//can be part from a chain of drugstore, connected to a warehouse
+//it can be there also in commerce, a small store but also there can be a chain of small or large markets.
+ISalePointGroupChannel{
+  ISalePointList GetSalePointList();
+}
