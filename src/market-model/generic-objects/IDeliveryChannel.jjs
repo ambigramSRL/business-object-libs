@@ -1,0 +1,4 @@
+//This class holds Transportation and other type of delivery service interface in orde to connect manufacturer, warehouse, sale points
+IDeliveryChannel:IAuthorisationRequiredChannel {
+  ITrace GetAWBData(String awbNumber)
+}
