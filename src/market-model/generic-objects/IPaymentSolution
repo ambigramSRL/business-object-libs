@@ -1,0 +1,5 @@
+///this is the Financial solution representation
+IPaymentSolution{
+  IStatus GetPaymentStatus (IOrderSearchDefinition ordersearch);
+  IStatus SchedulePayment (IOrderPaymentDefinition ordersearch);
+}
