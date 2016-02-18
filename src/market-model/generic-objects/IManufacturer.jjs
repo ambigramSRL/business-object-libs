@@ -1,0 +1,9 @@
+//@desc Manufacture class hold interface for enterprise that publish products in order to be 
+//distributed
+IManufacturer {
+  //@desc Return the list of products
+   IProduct GetProductdefinition();
+   IServiceDefinition GetServiceDefinition();
+   IOnlineOperation GetOnlineOperationDefinition(); // what operations are available
+   IAuthDefinition GetAuthDefinition(); //how to authenticate in the system
+}
