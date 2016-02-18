@@ -1,0 +1,4 @@
+//This class describe a warehouse item
+IWarehouse:IAuthorisationRequiredChannel{
+
+}
