@@ -1,0 +1,4 @@
+// represent a sale point from the market point of view
+ISalePoint{
+  ISaleReport GetSaleReport();
+}
