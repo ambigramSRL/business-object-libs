@@ -1,0 +1,3 @@
+IMultiWarehouseChannel{
+IWarehouse GetConnectedWarehouses();
+}
