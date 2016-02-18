@@ -35,3 +35,5 @@ All actors have the opportunity to publish in the system reports about transacti
 
 This directory provide common object representation for above flow.
 
+Please visit http://www.ambigram.ro and  http://www.e-reducere.ro for more information about our projects
+
